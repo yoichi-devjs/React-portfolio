@@ -1,16 +1,82 @@
-# React + Vite
+# Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+This project is a personal portfolio website designed to showcase my work as a frontend developer. 
+It includes dedicated sections for my skills, completed projects, in‑development projects, GitHub repositories,
+and a fully functional contact form that allows clients to reach me directly.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The website is built with a focus on clarity, responsiveness, and modern UI practices. 
+It serves as both a professional presentation of my capabilities and a central hub for potential clients 
+to evaluate my work and initiate collaboration.
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+### Home Page
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Introduction and professional summary.
+- Clear call‑to‑action buttons:
+  - Navigate to the Contact page.
+  - Open a featured project hosted on Vercel.
+- Responsive hero layout with avatar and background visuals.
+
+
+### About Page
+
+- Professional background and personal introduction.
+- Explanation of my approach to frontend development.
+
+
+### Projects Page
+
+- Display of completed projects.
+- Section reserved for in‑development projects.
+- Each project includes:
+  - Title
+  - Description
+  - Tech stack
+  - Live demo link
+  - GitHub repository link
+
+
+### Skills Page
+
+- Overview of core technical skills.
+- Tools and technologies used in my workflow.
+
+
+### GitHub Page
+
+- Dynamic list of repositories fetched from my GitHub profile.
+- Repository names, descriptions, and direct links.
+
+
+### Contact Page
+
+- Fully functional contact form powered by Formspree.
+- Users can submit project inquiries directly to my email.
+- Includes fallback direct email link.
+
+
+## Technologies Used
+
+### Frontend
+
+- React 18
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+
+### Deployment
+
+- Vercel
+
+### Contact Form Integration
+
+- Formspree
+
+
+### Author
+
+Yoichi Dev 
