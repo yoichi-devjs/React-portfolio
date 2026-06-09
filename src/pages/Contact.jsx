@@ -16,7 +16,7 @@ const Contact = () => {
         no backend and real portfolio feature */}
         <form
           className="contact-form"
-          action="https://formspree.io/f/yourFormID" 
+          action="https://formspree.io/f/maqzjgyv" 
           method="POST"
           onSubmit={() => setStatus("sending")}
         >
