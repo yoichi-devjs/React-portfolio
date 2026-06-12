@@ -33,7 +33,7 @@ const Projects = () => {
 
         <a
           className="project-link"
-          href="https://dev-tracker-ecru.vercel.app/0"
+          href="https://dev-chain-mu.vercel.app/"
           target="_blank"
           rel="noreferrer"
         >
@@ -41,7 +41,7 @@ const Projects = () => {
         </a> <br />
         <a 
           className="project-link"
-          href="https://github.com/yoichi-devjs/Dev-Tracker"
+          href="https://github.com/yoichi-devjs/DevChain"
           target="blank"
           rel="noreferrer"
           >
@@ -70,6 +70,33 @@ const Projects = () => {
         <a 
           className="project-link"
           href="https://github.com/yoichi-devjs/socialboost-studio"
+          target="blank"
+          rel="noreferrer"
+        >
+          GitHub Repo
+        </a>
+      </div>
+
+      {/* Project name: Clientella */}
+      <div className="project-card">
+        <h3 className="project-title">Clientella</h3>
+        <p className="project-description">
+          Developed a client management dashboard that allows users to organize and track their clients effectively.
+        </p>
+        <p className="project-tech">
+          <strong>Tech stack:</strong> React, JavaScript, HTML, CSS
+        </p>
+        <a
+          className="project-link"
+          href="https://clientella.vercel.app/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Live Demo
+        </a> <br />
+        <a 
+          className="project-link"
+          href="https://github.com/yoichi-devjs/clientella"
           target="blank"
           rel="noreferrer"
         >
